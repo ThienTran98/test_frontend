@@ -19,7 +19,7 @@ export default function Footer() {
               <li>
                 <img src={logo} alt="" />
               </li>
-              <li class="text-[12px] md:text-sm lg:text-base mt-[45px]  hover:opacity-80 ">
+              <li className="text-[12px] md:text-sm lg:text-base mt-[45px]  hover:opacity-80 ">
                 <a href="">
                   Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved
                 </a>
