@@ -34,11 +34,11 @@ export default function OurProject() {
       </div>
       <div className="px-[95px] mt-[140px]">
         <Carousel
+          className="shadow-2xl rounded-xl"
           additionalTransfrom={0}
           arrows
           autoPlaySpeed={3000}
           centerMode={false}
-          className=""
           containerClass="container-with-dots"
           dotListClass=""
           draggable
@@ -83,20 +83,36 @@ export default function OurProject() {
           shouldResetAutoplay
           showDots={false}
           sliderClass=""
-          slidesToSlide={1}
+          slidesToSlide={2}
           swipeable
         >
-          <div className="mr-3 shadow-2xl">
-            <img src={image1} alt="" />
+          <div className="mr-3 shadow-2xl ">
+            <img
+              src={image1}
+              className="w-[340px] h-[256px] object-cover"
+              alt=""
+            />
           </div>
-          <div className="mr-3 shadow-2xl">
-            <img src={image2} alt="" />
+          <div className="mr-3 shadow-2xl ">
+            <img
+              src={image2}
+              className="w-[340px] h-[256px] object-cover"
+              alt=""
+            />
           </div>
-          <div className="mr-3 shadow-2xl">
-            <img src={image3} alt="" />
+          <div className="mr-3 shadow-2xl ">
+            <img
+              src={image3}
+              className="w-[340px] h-[256px] object-cover"
+              alt=""
+            />
           </div>
           <div className=" shadow-2xl">
-            <img src={image4} alt="" />
+            <img
+              src={image4}
+              className="w-[340px] h-[256px] object-cover"
+              alt=""
+            />
           </div>
         </Carousel>
       </div>

@@ -15,7 +15,7 @@ export default function ServicesOur() {
           </p>
         </div>
         <div className="pl-[160px] flex items-center">
-          <div className=" w-[360px] h-[170px] mr-10">
+          <div className=" w-[360px] h-[170px] mr-10 ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
             <div className="px-6 py-10 flex items-center shadow-2xl rounded-md">
               <div>
                 <img className="" src={icon1} alt="" />
@@ -28,7 +28,7 @@ export default function ServicesOur() {
               </div>
             </div>
           </div>
-          <div className=" w-[360px] h-[170px]">
+          <div className=" w-[360px] h-[170px] ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
             <div className="px-6 py-10 flex items-center shadow-2xl rounded-md">
               <div>
                 <img className="" src={icon2} alt="" />
@@ -44,7 +44,7 @@ export default function ServicesOur() {
         </div>
 
         <div className="pl-[520px] flex items-center mt-10">
-          <div className=" w-[360px] h-[170px] mr-10">
+          <div className=" w-[360px] h-[170px] mr-10 ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
             <div className="px-6 py-10 flex items-center shadow-2xl rounded-md">
               <div>
                 <img className="" src={icon3} alt="" />
@@ -57,7 +57,7 @@ export default function ServicesOur() {
               </div>
             </div>
           </div>
-          <div className=" w-[360px] h-[170px]">
+          <div className=" w-[360px] h-[170px] ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
             <div className="px-6 py-10 flex items-center shadow-2xl rounded-md">
               <div>
                 <img className="" src={icon2} alt="" />

@@ -8,6 +8,7 @@ import OurFeatures from "./OurFeatures/OurFeatures";
 import ServicesOur from "./ServicesOur/ServicesOur";
 import OurProject from "./OurProject/OurProject";
 import Customer from "./Customer/Customer";
+import FeaturedAgents from "./FeaturedAgents/FeaturedAgents";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ServicesOur />
       <OurProject />
       <Customer />
+      <FeaturedAgents />
       <Footer />
     </div>
   );
