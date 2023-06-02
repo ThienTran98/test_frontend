@@ -19,7 +19,7 @@ export default function OurFeatures() {
         </p>
       </div>
       <div className="grid grid-cols-4 gap-4">
-        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
+        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px] px-2">
           <div className="w-12 h-12 bg-[#FFF0E9] flex items-center justify-center rounded-full text-[#ff8345] mt-4">
             <FontAwesomeIcon className="text-xl" icon={faGear} />
           </div>
@@ -32,7 +32,7 @@ export default function OurFeatures() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
+        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px] px-2">
           <div className="w-12 h-12 bg-[#E9F6EE] flex items-center justify-center rounded-full text-[#48B774] mt-4">
             <FontAwesomeIcon className="text-xl" icon={faUser} />
           </div>
@@ -45,7 +45,7 @@ export default function OurFeatures() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
+        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px] px-2">
           <div className="w-12 h-12 bg-[#FFF6DD] flex items-center justify-center rounded-full text-[#FFCB46] mt-4">
             <FontAwesomeIcon className="text-xl" icon={faEnvelope} />
           </div>
@@ -58,7 +58,7 @@ export default function OurFeatures() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px]">
+        <div className="flex flex-col justify-center items-center text-center shadow-2xl rounded ease-in duration-300 hover:cursor-pointer hover:translate-y-[-6px] px-2">
           <div className="w-12 h-12 bg-[#EDFFFF] flex items-center justify-center rounded-full text-[#61FFFF] mt-4">
             <FontAwesomeIcon className="text-xl" icon={faPhone} />
           </div>

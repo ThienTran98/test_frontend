@@ -5,7 +5,7 @@ import icon3 from "../../../assets/img/Compound Path.png";
 
 export default function ServicesOur() {
   return (
-    <div>
+    <div className="bg-zinc-100 pb-10">
       <div>
         <div className="px-[370px] text-center mb-[76px]">
           <h1 className="text-[60px] font-semibold">Services</h1>

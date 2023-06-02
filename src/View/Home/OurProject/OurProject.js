@@ -8,26 +8,26 @@ import image4 from "../../../assets/img/Rectangle 3745.png";
 
 export default function OurProject() {
   return (
-    <div className="pt-[200px]">
+    <div className="pt-[160px]">
       <div className="px-[370px] text-center">
         <h1 className="text-[60px] font-bold">Our Projects</h1>
         <p className="text-lg font-light mt-[30px] mb-12">
           We have been providing great flooring solutions service.
         </p>
         <div>
-          <button className="min-w-[120px] py-[10px] rounded-full bg-color-2 text-white hover:opacity-80 mr-6">
+          <button className="min-w-[120px] py-[10px] rounded-full bg-color-2 hover:text-blue-500 hover:bg-gray-300 hover:font-medium text-white hover:opacity-80 mr-6">
             All
           </button>
-          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1]  text-[#ACACAC] hover:opacity-80 mr-6">
+          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1]  text-[#ACACAC] hover:text-blue-500 hover:opacity-80 mr-6">
             Websites
           </button>
-          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1] text-[#ACACAC] hover:opacity-80 mr-6">
+          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1] text-[#ACACAC] hover:text-blue-500 hover:opacity-80 mr-6">
             Social Media
           </button>
-          <button className="min-w-[120px] py-[10px] rounded-full  bg-[#F1F1F1] text-[#ACACAC] hover:opacity-80 mr-6">
+          <button className="min-w-[120px] py-[10px] rounded-full  bg-[#F1F1F1] text-[#ACACAC] hover:text-blue-500 hover:opacity-80 mr-6">
             UI/UX
           </button>
-          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1]  text-[#ACACAC] hover:opacity-80">
+          <button className="min-w-[120px] py-[10px] rounded-full bg-[#F1F1F1]  text-[#ACACAC] hover:text-blue-500 hover:opacity-80">
             Market
           </button>
         </div>
@@ -89,28 +89,28 @@ export default function OurProject() {
           <div className="mr-3 shadow-2xl ">
             <img
               src={image1}
-              className="w-[340px] h-[256px] object-cover"
+              className="w-[340px] h-[256px] object-cover hover:text-blue-500"
               alt=""
             />
           </div>
           <div className="mr-3 shadow-2xl ">
             <img
               src={image2}
-              className="w-[340px] h-[256px] object-cover"
+              className="w-[340px] h-[256px] object-cover hover:text-blue-500"
               alt=""
             />
           </div>
           <div className="mr-3 shadow-2xl ">
             <img
               src={image3}
-              className="w-[340px] h-[256px] object-cover"
+              className="w-[340px] h-[256px] object-cover hover:text-blue-500"
               alt=""
             />
           </div>
           <div className=" shadow-2xl">
             <img
               src={image4}
-              className="w-[340px] h-[256px] object-cover"
+              className="w-[340px] h-[256px] object-cover hover:text-blue-500"
               alt=""
             />
           </div>
